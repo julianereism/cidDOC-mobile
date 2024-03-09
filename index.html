@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- inclui icons do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Index</title>
+</head>
+<body>
+
+    <!--Menu com icon-->
+
+    <div class="fixed-menu">
+        <div class="user-info">
+            <a href="perfil.html"><img src="https://static.vecteezy.com/ti/vetor-gratis/p3/4773704-rosto-de-uma-garota-com-um-sorriso-lindo-um-avatar-feminino-para-um-site-e-rede-social-vetor.jpg" alt="Foto de usuário"></a>
+            <span>Olá, Juliane!</span>
+        </div>
+       
+
+        <!-- Menu de Hambúrguer -->
+        <div class="menu-toggle">&#9776;</div>
+        <div class="menu-options">
+            <a href="receitas.html"><div class="menu-option">Receitas</i></div></a>
+            <a href="remedios.html"><div class="menu-option">Remédios</div></a>
+            <a href="exam_imagem.html"><div class="menu-option">Exames de imagem</div></a>
+            <a href="exam_sangue.html"><div class="menu-option">Exames de sangue</div></a>
+            <a href="encaminhamentos.html"><div class="menu-option">Encaminhamentos</div></a>
+            <a href="perfil.html"><div class="menu-option">Info. de Usuário</div></a>
+            <a href="config.html">X<div class="menu-option">Configurações</div></a>
+    
+        </div>
+    </div>
+    
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.menu-options').classList.toggle('active');
+        });
+    </script>
+
+<!--Menu com entrdas de documentação-->
+<div class="container">
+    <a href="receitas.html"><div class="box">Receitas</a></div>
+    <a href="remedios.html"><div class="box">Remédios</a></div>
+    <a href="exam_imagem.html"><div class="box">Exames de imagem</a></div>
+    <a href="exam_sangue.html"><div class="box">Exames de sangue</a></div>
+    <a href="encaminhamentos.html"><div class="box">Encaminhamentos</a></div>
+</div>
+
+<!--Navbar-->
+<div class="navbar">
+   <a href="index.html"><i class="fas fa-home"></a></i>
+    <i class="fas fa-plus"></i>
+    <i class="fas fa-cog"></i>
+</div>
+
+<div class="footer">
+    
+    <a href="perfil.html" class="icon-link"><i class="fas fa-exclamation-triangle"></i></a>
+    <a href="index.html"><i class="fas fa-home"></i></a>
+    <a href="config.html"><i class="fas fa-cog"></i></a>
+</div>
+
+
+</body>
+</html>
+

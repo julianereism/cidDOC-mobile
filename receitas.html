@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Receitas</title>
+</head>
+<body>
+
+    <!--Menu com icon-->
+
+    <div class="fixed-menu">
+        <div class="user-info">
+            <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/4773704-rosto-de-uma-garota-com-um-sorriso-lindo-um-avatar-feminino-para-um-site-e-rede-social-vetor.jpg" alt="Foto de usuário">
+            <span>Olá, Juliane!</span>
+        </div>
+     
+
+        <!-- Menu de Hambúrguer -->
+        <div class="menu-toggle">&#9776;</div>
+        <div class="menu-options">
+            <a href="receitas.html"><div class="menu-option">Receitas</i></div></a>
+            <a href="remedios.html"><div class="menu-option">Remédios</div></a>
+            <a href="exam_imagem.html"><div class="menu-option">Exames de imagem</div></a>
+            <a href="exam_sangue.html"><div class="menu-option">Exames de sangue</div></a>
+            <a href="encaminhamentos.html"><div class="menu-option">Encaminhamentos</div></a>
+            <a href="perfil.html"><div class="menu-option">Info. de Usuário</div></a>
+            <a href="config.html">X<div class="menu-option">Configurações</div></a>
+           
+        </div>
+    </div>
+    
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.menu-options').classList.toggle('active');
+        });
+    </script>
+
+<!--CARDS-->
+
+<div class="remedios">
+    <div class="card-remedios">
+        <img src="https://www.farmaceuticas.com.br/wp-content/uploads/2018/08/estricnina-dentista.jpg" alt="Imagem 1">
+        <div class="card-content">
+            <h3>Nome do Paciente</h3>
+            <p>Data: 10/03/2024</p>
+            <p>Indicação: Lorem ipsum dolor sit amet</p>
+            <p>Médico: Dr. João Silva</p>
+            <p>Especialidade: Cardiologia</p>
+            <p>Observações: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+
+    <div class="card-remedios">
+        <img src="https://www.farmaceuticas.com.br/wp-content/uploads/2018/08/estricnina-dentista.jpg" alt="Imagem 2">
+        <div class="card-content">
+            <h3>Nome do Paciente</h3>
+            <p>Data: 12/03/2024</p>
+            <p>Indicação: Lorem ipsum dolor sit amet</p>
+            <p>Médico: Dra. Maria Oliveira</p>
+            <p>Especialidade: Dermatologia</p>
+            <p>Observações: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+
+    <div class="card-remedios">
+        <img src="https://www.farmaceuticas.com.br/wp-content/uploads/2018/08/estricnina-dentista.jpg" alt="Imagem 3">
+        <div class="card-content">
+            <h3>Nome do Paciente</h3>
+            <p>Data: 15/03/2024</p>
+            <p>Indicação: Lorem ipsum dolor sit amet</p>
+            <p>Médico: Dr. Carlos Santos</p>
+            <p>Especialidade: Ortopedia</p>
+            <p>Observações: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+
+    <div class="card-remedios">
+        <img src="https://www.farmaceuticas.com.br/wp-content/uploads/2018/08/estricnina-dentista.jpg" alt="Imagem 4">
+        <div class="card-content">
+            <h3>Nome do Paciente</h3>
+            <p>Data: 18/03/2024</p>
+            <p>Indicação: Lorem ipsum dolor sit amet</p>
+            <p>Médico: Dra. Ana Pereira</p>
+            <p>Especialidade: Pediatria</p>
+            <p>Observações: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+</div>
+
+
+    <!--Navbar-->
+<div class="navbar">
+    <i class="fas fa-home"></i>
+    <i class="fas fa-plus"></i>
+    <i class="fas fa-cog"></i>
+</div>
+
+<div class="footer">
+    <a href="perfil.html" class="icon-link"><i class="fas fa-exclamation-triangle"></i></a>
+    <a href="index.html"><i class="fas fa-home"></i></a>
+    <a href="config.html"><i class="fas fa-cog"></i></a>
+</div>
+
+<!-- Include Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</body>
+</html>

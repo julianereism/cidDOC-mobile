@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- inclui icons do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Informações</title>
+</head>
+<body>
+
+    <!--Menu com icon-->
+
+    <div class="fixed-menu">
+        <div class="user-info">
+            <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/4773704-rosto-de-uma-garota-com-um-sorriso-lindo-um-avatar-feminino-para-um-site-e-rede-social-vetor.jpg" alt="Foto de usuário">
+            <span>Olá, Juliane!</span>
+        </div>
+       
+
+        <!-- Menu de Hambúrguer -->
+        <div class="menu-toggle">&#9776;</div>
+        <div class="menu-options">
+            <a href="receitas.html"><div class="menu-option">Receitas</i></div></a>
+            <a href="remedios.html"><div class="menu-option">Remédios</div></a>
+            <a href="exam_imagem.html"><div class="menu-option">Exames de imagem</div></a>
+            <a href="exam_sangue.html"><div class="menu-option">Exames de sangue</div></a>
+            <a href="encaminhamentos.html"><div class="menu-option">Encaminhamentos</div></a>
+            <a href="perfil.html"><div class="menu-option">Info. de Usuário</div></a>
+            <a href="config.html">X<div class="menu-option">Configurações</div></a>
+      
+        </div>
+    </div>
+    
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.menu-options').classList.toggle('active');
+        });
+    </script>
+
+
+<div class="conteudo-perfil">
+    <h2>Informações de Usuário</h2>
+
+    <div class="profile-info">
+        <label for="email">E-mail:</label>
+        <span id="firstName">julian3reis@gmail.com</span> <!-- Coloque o nome do usuário aqui -->
+    </div>
+    <div class="profile-info">
+        <label for="firstName">Nome:</label>
+        <span id="firstName">Juliane</span> <!-- Coloque o nome do usuário aqui -->
+    </div>
+    <div class="profile-info">
+        <label for="lastName">Sobrenome:</label>
+        <span id="lastName">Reis</span> <!-- Coloque o sobrenome do usuário aqui -->
+    </div>
+    <div class="profile-info">
+        <label for="dob">Data de Nascimento:</label>
+        <span id="dob">18/03/1996</span> <!-- Coloque a data de nascimento do usuário aqui -->
+    </div>
+    <div class="profile-info">
+        <label for="bloodType">Tipo Sanguíneo:</label>
+        <span id="bloodType">O+</span> <!-- Coloque o tipo sanguíneo do usuário aqui -->
+    </div>
+    <div class="profile-info">
+        <label for="weight">Peso:</label>
+        <span id="weight">70 kg</span> <!-- Coloque o peso do usuário aqui -->
+    </div>
+    <div class="profile-info">
+        <label for="height">Altura:</label>
+        <span id="height">152 cm</span> <!-- Coloque a altura do usuário aqui -->
+    </div>
+    <div class="profile-info">
+        <label for="diseases">Doenças:</label>
+        <span id="diseases">Hipertensão intracraniana idiopática, DTM, enxaqueca crônica</span> <!-- Coloque as doenças do usuário aqui -->
+    </div>
+    <div class="profile-info">
+        <label for="medications">Medicações:</label>
+        <span id="medications">Venlafaxina (75mg/dia), Diamox (1500mg/dia)</span> <!-- Coloque as medicações do usuário aqui -->
+    </div>
+    <div class="profile-info">
+        <label for="allergies">Alergias:</label>
+        <span id="allergies">Nenhuma</span> <!-- Coloque as alergias do usuário aqui -->
+    </div>
+    <div class="profile-info">
+        <label for="healthPlan">Plano de Saúde:</label>
+        <span id="healthPlan">Nenhum</span> <!-- Coloque o plano de saúde do usuário aqui -->
+    </div>
+    <div class="profile-info">
+        <label for="contactPhone">Telefone para Contato:</label>
+        <span id="contactPhone">(81) 99959-7056</span> <!-- Coloque o telefone para contato do usuário aqui -->
+    </div>
+    <div class="profile-info">
+        <label for="contactName">Nome do Contato:</label>
+        <span id="contactName">Janaina Alves</span> <!-- Coloque o nome do contato do usuário aqui -->
+    </div>
+    <div class="profile-info">
+        <label for="otherPhone">Outro Número de Telefone:</label>
+        <span id="otherPhone">(81) 9959959595</span> <!-- Coloque o outro número de telefone do usuário aqui -->
+    </div>
+    <div class="profile-info">
+        <label for="otherContactName">Nome do Contato:</label>
+        <span id="otherContactName">Leticia Reis</span> <!-- Coloque o nome do outro contato do usuário aqui -->
+    </div>
+    <button class="edit-button">Editar Informações</button>
+</div>
+
+<!--Navbar-->
+<div class="navbar">
+    <a href="index.html"><i class="fas fa-home"></a></i>
+     <i class="fas fa-plus"></i>
+     <i class="fas fa-cog"></i>
+ </div>
+ 
+ <div class="footer">
+     
+     <a href="perfil.html" class="icon-link"><i class="fas fa-exclamation-triangle"></i></a>
+     <a href="index.html"><i class="fas fa-home"></i></a>
+     <a href="config.html"><i class="fas fa-cog"></i></a>
+ </div>
+ 
+ 
+ </body>
+ </html>
+ 
